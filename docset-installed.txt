@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/migu/Library/Developer/Shared/Documentation/DocSets/com.ibireme.myproject.MyProject.docset
+Time: 2016-09-20 05:22:28 +0000

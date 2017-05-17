@@ -1,0 +1,19 @@
+/*********************************************************************
+ * 版权所有 CWB
+ *
+ * 文件名称： globalHeader.pch
+ * 内容摘要： 全局头文件
+ * 其它说明：
+ * 当前版本：  1.0
+ * 作    者： ciome
+ * 完成日期：16/7/30
+ ***********************************************************************/
+#ifndef globalHeader_pch
+#define globalHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "WriteLog.h"
+
+
+
+#endif /* globalHeader_pch */

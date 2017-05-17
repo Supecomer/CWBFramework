@@ -1,0 +1,61 @@
+/*********************************************************************
+ * 版权所有 CWB
+ *
+ * 文件名称： xcode-plug-in.strings
+ * 内容摘要： xcode 辅助插件
+ * 其它说明：
+ * 当前版本：  1.0
+ * 作    者： ciome
+ * 完成日期：16/7/30
+ ***********************************************************************/
+
+/******
+ 使用多个插件时，快捷键可能会冲突，需要自己设置
+
+
+Xcode自动注释插件
+
+VVDocumenter-Xcode，地址是：https://github.com/onevcat/VVDocumenter-Xcode
+
+/****************** 分割线 *************************************
+XAlign：用于代码对齐的Xcode插件
+安装
+
+1. 自动安装
+$ curl github.so/XAlign/build/install.sh | sh
+
+2. 手工安装
+
+下载 XAlign.tar.gz
+然后解压，把 XAlign.xcplugin 复制或移动到下面这个目录：
+~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/
+小贴士：用 cmd+shift+g 快速查找；如果没有 Plug-ins 目录，你得创建一个
+然后重启 Xcode
+
+
+卸载
+$ curl github.so/XAlign/build/uninstall.sh | sh
+
+使用方法
+
+开启
+Xcode -> Edit -> XAlign
+自动对齐快捷键
+
+shfit + cmd + x
+开源地址：https://github.com/qfish/XAlign
+/****************** 分割线 *************************************
+KSImageNamed-Xcode:图片选择预览工具
+https://github.com/ksuther/KSImageNamed-Xcode
+
+/****************** 分割线 *************************************
+Code Pilot: 文件查找工具
+
+https://github.com/macoscope/CodePilot
+
+/****************** 分割线 *************************************
+
+ Xcode 打印带颜色Log
+ https://github.com/robbiehanson/XcodeColors
+ 
+ **/

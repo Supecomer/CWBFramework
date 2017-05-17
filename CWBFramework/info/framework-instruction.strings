@@ -1,0 +1,101 @@
+
+/*********************************************************************
+ * 版权所有 CWB
+ *
+ * 文件名称：framework-instruction.strings
+ * 内容摘要： 介绍整个项目目录结构
+ * 其它说明：
+ * 当前版本：  1.0
+ * 作    者： ciome
+ * 完成日期：16/7/30
+ ***********************************************************************/
+/****
+AppDelegate
+Models
+Macro
+General
+Helpers
+Vendors
+Sections
+info
+一个合理的目录结构首先应该是清晰的，让人一眼看上去就能大概了解目录的职责，且容易应对新的变化。
+
+AppDelegate
+
+这个目录下放的是AppDelegate.h(.m)文件，是整个应用的入口文件，所以单独拿出来。
+
+Models
+
+这个目录下放一些与数据相关的Model文件，里面大概是这样：
+
+Models
+|- BaseModel.h
+|- BaseModel.m
+|- CollectionModel.h
+|- CollectionModel.m
+...
+
+
+
+Macro
+
+这个目录下放了整个应用会用到的宏定义，里面大概是这样：
+
+Macro
+|- AppMacro.h
+|- NotificationMacro.h
+|- VendorMacro.h
+|- UtilsMacro.h
+...
+
+AppMacro.h 里放app相关的宏定义，如:
+NotificationMacro.h 里放的是通知相关的宏定义。
+UtilsMacro.h 里放的是一些方便使用的宏定义，如：
+VendorMacro.h 里放一些第三方常量，如：
+
+
+General
+
+这个目录放会被重用的Views/Classes和Categories。里面大概是这样：
+
+
+General
+|- Views
+|- TPKScollView
+|- TPKPullToRefresh
+...
+|- Classes
+|- TPKBaseViewController
+|- TPKHorizontalView
+...
+| - Categories
+|- UIViewController+Sizzle
+|- UIImageView+Downloader
+这里的TPK是项目的首字母缩写。
+
+Helpers
+
+这个目录放一些助手类，文件名与功能挂钩。里面大概是这样：
+Helpers
+|- TPKShareHelper
+|- TPDBHelper
+|- TPKEmotionHelper
+...
+助手类的主要作用是帮助Controller瘦身，也可以提供一定程度的复用。
+
+Vendors
+
+这个目录放第三方的类库/SDK，如UMeng、WeiboSDK、WeixinSDK等等。
+
+Sections
+
+这个目录下面的文件对应的是app的具体单元，如导航、瀑布流等等。里面大概是这样：
+|- Menu
+|- Setting
+|- Collection
+...
+
+info
+整个框架的一些说明
+
+*******/
