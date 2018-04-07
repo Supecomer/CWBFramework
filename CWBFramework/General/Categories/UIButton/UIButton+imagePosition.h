@@ -1,7 +1,7 @@
 /*********************************************************************
  * 版权所有 CWB
  *
- * 文件名称： UIButton+extend.h
+ * 文件名称： UIButton+imagePosition.h
  * 内容摘要： UIButton 扩展
  * 其它说明：
  * 当前版本：  1.0
@@ -10,14 +10,14 @@
  ***********************************************************************/
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, JKImagePosition) {
-    LXMImagePositionLeft = 0,              //图片在左，文字在右，默认
-    LXMImagePositionRight = 1,             //图片在右，文字在左
-    LXMImagePositionTop = 2,               //图片在上，文字在下
-    LXMImagePositionBottom = 3,            //图片在下，文字在上
+typedef NS_ENUM(NSInteger, CWBImagePosition) {
+    CWBImagePositionLeft = 0,              //图片在左，文字在右，默认
+    CWBImagePositionRight = 1,             //图片在右，文字在左
+    CWBImagePositionTop = 2,               //图片在上，文字在下
+    CWBImagePositionBottom = 3,            //图片在下，文字在上
 };
 
-@interface UIButton (JKImagePosition)
+@interface UIButton (CWBImagePosition)
 
 /**
  *  利用UIButton的titleEdgeInsets和imageEdgeInsets来实现文字和图片的自由排列
@@ -25,5 +25,5 @@ typedef NS_ENUM(NSInteger, JKImagePosition) {
  *
  *  @param spacing 图片和文字的间隔
  */
-- (void)jk_setImagePosition:(JKImagePosition)postion spacing:(CGFloat)spacing;
+- (void)cwb_setImagePosition:(CWBImagePosition)postion spacing:(CGFloat)spacing;
 @end
