@@ -2,7 +2,7 @@
 //  ViewController.m
 //  CWBFramwork
 //
-//  Created by spomer on 16/7/30.
+//  Created by ciome on 16/7/30.
 //  Copyright © 2016年 ciome. All rights reserved.
 //
 
@@ -24,7 +24,7 @@
 //    [one testOne];
     
     [self testPostHttp];
-   
+    
     LOGERR(@"测试中----");
     LOGWARN(@"警告");
     LOGNOTICE(@"登陆");

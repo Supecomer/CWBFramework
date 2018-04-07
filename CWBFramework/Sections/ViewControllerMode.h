@@ -2,7 +2,7 @@
 //  ViewControllerMode.h
 //  CWBFramework
 //
-//  Created by spomer on 2018/3/16.
+//  Created by ciome on 2018/3/16.
 //  Copyright © 2018年 ciome. All rights reserved.
 //
 
