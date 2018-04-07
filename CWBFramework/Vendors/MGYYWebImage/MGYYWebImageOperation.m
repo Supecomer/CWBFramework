@@ -1,9 +1,9 @@
 //
 //  MGYYWebImageOperation.m
-//  MGYYWebImage <https://github.com/ibireme/MGYYWebImage>
+//  MGYYWebImage <MGYYWebImage>
 //
-//  Created by ibireme on 15/2/15.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/2/15.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -185,7 +185,7 @@ static void URLInBlackListAdd(NSURL *url) {
 /// Network thread entry point.
 + (void)_networkThreadMain:(id)object {
     @autoreleasepool {
-        [[NSThread currentThread] setName:@"com.ibireme.webimage.request"];
+        [[NSThread currentThread] setName:@"com.ciome.webimage.request"];
         NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
         [runLoop addPort:[NSMachPort port] forMode:NSDefaultRunLoopMode];
         [runLoop run];
@@ -219,11 +219,11 @@ static void URLInBlackListAdd(NSURL *url) {
         if ([UIDevice currentDevice].systemVersion.floatValue >= 8.0) {
             for (NSUInteger i = 0; i < queueCount; i++) {
                 dispatch_queue_attr_t attr = dispatch_queue_attr_make_with_qos_class(DISPATCH_QUEUE_SERIAL, QOS_CLASS_UTILITY, 0);
-                queues[i] = dispatch_queue_create("com.ibireme.image.decode", attr);
+                queues[i] = dispatch_queue_create("com.ciome.image.decode", attr);
             }
         } else {
             for (NSUInteger i = 0; i < queueCount; i++) {
-                queues[i] = dispatch_queue_create("com.ibireme.image.decode", DISPATCH_QUEUE_SERIAL);
+                queues[i] = dispatch_queue_create("com.ciome.image.decode", DISPATCH_QUEUE_SERIAL);
                 dispatch_set_target_queue(queues[i], dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0));
             }
         }
@@ -426,7 +426,7 @@ static void URLInBlackListAdd(NSURL *url) {
             _data = nil;
             NSError *error = nil;
             if (!image) {
-                error = [NSError errorWithDomain:@"com.ibireme.image" code:-1 userInfo:@{ NSLocalizedDescriptionKey : @"Web image decode fail." }];
+                error = [NSError errorWithDomain:@"com.ciome.image" code:-1 userInfo:@{ NSLocalizedDescriptionKey : @"Web image decode fail." }];
                 if (_options & MGYYWebImageOptionIgnoreFailedURL) {
                     if (URLBlackListContains(_request.URL)) {
                         error = [NSError errorWithDomain:NSURLErrorDomain code:NSURLErrorFileDoesNotExist userInfo:@{ NSLocalizedDescriptionKey : @"Failed to load URL, blacklisted." }];

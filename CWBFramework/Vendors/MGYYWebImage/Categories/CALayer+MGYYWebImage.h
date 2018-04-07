@@ -1,9 +1,9 @@
 //
 //  CALayer+MGYYWebImage.h
-//  MGYYWebImage <https://github.com/ibireme/MGYYWebImage>
+//  MGYYWebImage <MGYYWebImage>
 //
-//  Created by ibireme on 15/2/23.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/2/23.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.

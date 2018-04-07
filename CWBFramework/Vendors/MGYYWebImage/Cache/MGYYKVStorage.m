@@ -1,9 +1,9 @@
 //
 //  MGYYKVStorage.m
-//  MGYYCache <https://github.com/ibireme/MGYYCache>
+//  MGYYCache <MGYYCache>
 //
-//  Created by ibireme on 15/4/22.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/4/22.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -692,7 +692,7 @@ static UIApplication *_MGYYSharedApplication() {
     _type = type;
     _dataPath = [path stringByAppendingPathComponent:kDataDirectoryName];
     _trashPath = [path stringByAppendingPathComponent:kTrashDirectoryName];
-    _trashQueue = dispatch_queue_create("com.ibireme.cache.disk.trash", DISPATCH_QUEUE_SERIAL);
+    _trashQueue = dispatch_queue_create("com.ciome.cache.disk.trash", DISPATCH_QUEUE_SERIAL);
     _dbPath = [path stringByAppendingPathComponent:kDBFileName];
     _errorLogsEnabled = YES;
     NSError *error = nil;

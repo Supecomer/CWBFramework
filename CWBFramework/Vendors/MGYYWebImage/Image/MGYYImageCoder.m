@@ -1,9 +1,9 @@
 //
 //  MGYYImageCoder.m
-//  MGYYImage <https://github.com/ibireme/MGYYImage>
+//  MGYYImage <MGYYImage>
 //
-//  Created by ibireme on 15/5/13.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/5/13.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -1841,7 +1841,7 @@ CGImageRef MGYYCGImageCreateWithWebPData(CFDataRef webpData,
     static const int line = __LINE__;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSLog(@"[%s: %d] WebP is not available, check the documentation to see how to install WebP component: https://github.com/ibireme/MGYYImage#installation", func, line);
+        NSLog(@"[%s: %d] WebP is not available, check the documentation to see how to install WebP component: MGYYImage#installation", func, line);
     });
 #endif
 }
@@ -2329,7 +2329,7 @@ CGImageRef MGYYCGImageCreateWithWebPData(CFDataRef webpData,
     
 #if !MGYYIMAGE_WEBP_ENABLED
     if (type == MGYYImageTypeWebP) {
-        NSLog(@"[%s: %d] WebP is not available, check the documentation to see how to install WebP component: https://github.com/ibireme/MGYYImage#installation", __FUNCTION__, __LINE__);
+        NSLog(@"[%s: %d] WebP is not available, check the documentation to see how to install WebP component: MGYYImage#installation", __FUNCTION__, __LINE__);
         return nil;
     }
 #endif

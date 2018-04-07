@@ -1,9 +1,9 @@
 //
 //  _MGYYWebImageSetter.m
-//  MGYYWebImage <https://github.com/ibireme/MGYYWebImage>
+//  MGYYWebImage <MGYYWebImage>
 //
-//  Created by ibireme on 15/7/15.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/7/15.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -58,7 +58,7 @@ const NSTimeInterval _MGYYWebImageProgressiveFadeTime = 0.4;
     NSOperation *operation = [manager requestImageWithURL:imageURL options:options progress:progress transform:transform completion:completion];
     if (!operation && completion) {
         NSDictionary *userInfo = @{ NSLocalizedDescriptionKey : @"MGYYWebImageOperation create failed." };
-        completion(nil, imageURL, MGYYWebImageFromNone, MGYYWebImageStageFinished, [NSError errorWithDomain:@"com.ibireme.webimage" code:-1 userInfo:userInfo]);
+        completion(nil, imageURL, MGYYWebImageFromNone, MGYYWebImageStageFinished, [NSError errorWithDomain:@"com.ciome.webimage" code:-1 userInfo:userInfo]);
     }
     
     dispatch_semaphore_wait(_lock, DISPATCH_TIME_FOREVER);
@@ -94,7 +94,7 @@ const NSTimeInterval _MGYYWebImageProgressiveFadeTime = 0.4;
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        queue = dispatch_queue_create("com.ibireme.webimage.setter", DISPATCH_QUEUE_SERIAL);
+        queue = dispatch_queue_create("com.ciome.webimage.setter", DISPATCH_QUEUE_SERIAL);
         dispatch_set_target_queue(queue, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0));
     });
     return queue;

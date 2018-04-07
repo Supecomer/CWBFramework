@@ -1,9 +1,9 @@
 //
 //  MGYYImageCache.m
-//  MGYYWebImage <https://github.com/ibireme/MGYYWebImage>
+//  MGYYWebImage <MGYYWebImage>
 //
-//  Created by ibireme on 15/2/15.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/2/15.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -70,7 +70,7 @@ static inline dispatch_queue_t MGYYImageCacheDecodeQueue() {
     dispatch_once(&onceToken, ^{
         NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
                                                                    NSUserDomainMask, YES) firstObject];
-        cachePath = [cachePath stringByAppendingPathComponent:@"com.ibireme.MGYYkit"];
+        cachePath = [cachePath stringByAppendingPathComponent:@"com.ciome.MGYYkit"];
         cachePath = [cachePath stringByAppendingPathComponent:@"images"];
         cache = [[self alloc] initWithPath:cachePath];
     });

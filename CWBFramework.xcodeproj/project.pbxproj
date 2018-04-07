@@ -66,6 +66,9 @@
 		AFB950AF2078763F00C2D96C /* NSNotificationCenter+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950A22078763F00C2D96C /* NSNotificationCenter+MGAdd.m */; };
 		AFB950BF20787A8400C2D96C /* UIDevice+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950BB20787A8400C2D96C /* UIDevice+MGAdd.m */; };
 		AFB950C020787A8400C2D96C /* NSNumber+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950BE20787A8400C2D96C /* NSNumber+MGAdd.m */; };
+		AFB950C820787BC100C2D96C /* MGYYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950C320787BC100C2D96C /* MGYYAsyncLayer.m */; };
+		AFB950C920787BC100C2D96C /* MGYYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950C520787BC100C2D96C /* MGYYSentinel.m */; };
+		AFB950CA20787BC100C2D96C /* MGYYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950C720787BC100C2D96C /* MGYYTransaction.m */; };
 		AFD08D5F1D52C76500AE00AF /* CWBFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD08D5E1D52C76500AE00AF /* CWBFrameworkUITests.m */; };
 		AFD08D6D1D52C77C00AE00AF /* CWBFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD08D6C1D52C77C00AE00AF /* CWBFrameworkTests.m */; };
 /* End PBXBuildFile section */
@@ -208,6 +211,12 @@
 		AFB950BB20787A8400C2D96C /* UIDevice+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MGAdd.m"; sourceTree = "<group>"; };
 		AFB950BD20787A8400C2D96C /* NSNumber+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MGAdd.h"; sourceTree = "<group>"; };
 		AFB950BE20787A8400C2D96C /* NSNumber+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950C220787BC100C2D96C /* MGYYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGYYAsyncLayer.h; sourceTree = "<group>"; };
+		AFB950C320787BC100C2D96C /* MGYYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGYYAsyncLayer.m; sourceTree = "<group>"; };
+		AFB950C420787BC100C2D96C /* MGYYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGYYSentinel.h; sourceTree = "<group>"; };
+		AFB950C520787BC100C2D96C /* MGYYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGYYSentinel.m; sourceTree = "<group>"; };
+		AFB950C620787BC100C2D96C /* MGYYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGYYTransaction.h; sourceTree = "<group>"; };
+		AFB950C720787BC100C2D96C /* MGYYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGYYTransaction.m; sourceTree = "<group>"; };
 		AFD08D5C1D52C76500AE00AF /* CWBFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWBFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD08D5E1D52C76500AE00AF /* CWBFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBFrameworkUITests.m; sourceTree = "<group>"; };
 		AFD08D601D52C76500AE00AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -354,6 +363,7 @@
 		AF66273B1D4C419200D71FAF /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				AFB950C120787BC100C2D96C /* MGYYAsyncLayer */,
 				AFB9500F2078709D00C2D96C /* MGYYWebImage */,
 				AF7201DA20770B4D003ED4EC /* MGMBProgressHUD */,
 				AF8CEC432076FAF10066889F /* MGExtension */,
@@ -676,6 +686,19 @@
 			path = NSNumber;
 			sourceTree = "<group>";
 		};
+		AFB950C120787BC100C2D96C /* MGYYAsyncLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950C220787BC100C2D96C /* MGYYAsyncLayer.h */,
+				AFB950C320787BC100C2D96C /* MGYYAsyncLayer.m */,
+				AFB950C420787BC100C2D96C /* MGYYSentinel.h */,
+				AFB950C520787BC100C2D96C /* MGYYSentinel.m */,
+				AFB950C620787BC100C2D96C /* MGYYTransaction.h */,
+				AFB950C720787BC100C2D96C /* MGYYTransaction.m */,
+			);
+			path = MGYYAsyncLayer;
+			sourceTree = "<group>";
+		};
 		AFD08D5D1D52C76500AE00AF /* CWBFrameworkUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -831,6 +854,7 @@
 				AFB950AC2078763F00C2D96C /* UIButton+imagePosition.m in Sources */,
 				AFB950A52078763F00C2D96C /* NSObject+MGAdd.m in Sources */,
 				AF8C776D1D4C54BD00965040 /* WriteLog.m in Sources */,
+				AFB950CA20787BC100C2D96C /* MGYYTransaction.m in Sources */,
 				AF8C777A1D4C5A1F00965040 /* NetManager.m in Sources */,
 				AF6627241D4C3F0A00D71FAF /* ViewController.m in Sources */,
 				AFB950432078709E00C2D96C /* MGYYFrameImage.m in Sources */,
@@ -859,6 +883,7 @@
 				AF8CEC5B2076FAF10066889F /* MGExtensionConst.m in Sources */,
 				AF8CEC622076FAF10066889F /* NSObject+MGKeyValue.m in Sources */,
 				AFB950472078709E00C2D96C /* MGYYImageCache.m in Sources */,
+				AFB950C820787BC100C2D96C /* MGYYAsyncLayer.m in Sources */,
 				AFB950AB2078763F00C2D96C /* NSDictionary+MGAdd.m in Sources */,
 				AFB950442078709E00C2D96C /* MGYYImage.m in Sources */,
 				AF8CEC5E2076FAF10066889F /* MGPropertyKey.m in Sources */,
@@ -878,6 +903,7 @@
 				AFB950A32078763F00C2D96C /* NSDate+MGAdd.m in Sources */,
 				AFB950382078709E00C2D96C /* MGYYCache.m in Sources */,
 				AFB950BF20787A8400C2D96C /* UIDevice+MGAdd.m in Sources */,
+				AFB950C920787BC100C2D96C /* MGYYSentinel.m in Sources */,
 				AF8CEC5F2076FAF10066889F /* MGPropertyType.m in Sources */,
 				AFB950A92078763F00C2D96C /* UIImageView+CornerRadius.m in Sources */,
 			);

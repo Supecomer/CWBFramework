@@ -1,9 +1,9 @@
 //
 //  MGYYDiskCache.m
-//  MGYYCache <https://github.com/ibireme/MGYYCache>
+//  MGYYCache <MGYYCache>
 //
-//  Created by ibireme on 15/2/11.
-//  Copyright (c) 2015 ibireme.
+//  Created by ciome on 15/2/11.
+//  Copyright (c) 2015 ciome.
 //
 //  This source code is licensed under the MIT-style license found in the
 //  LICENSE file in the root directory of this source tree.
@@ -194,7 +194,7 @@ static void _MGYYDiskCacheSetGlobal(MGYYDiskCache *cache) {
     _kv = kv;
     _path = path;
     _lock = dispatch_semaphore_create(1);
-    _queue = dispatch_queue_create("com.ibireme.cache.disk", DISPATCH_QUEUE_CONCURRENT);
+    _queue = dispatch_queue_create("com.ciome.cache.disk", DISPATCH_QUEUE_CONCURRENT);
     _inlineThreshold = threshold;
     _countLimit = NSUIntegerMax;
     _costLimit = NSUIntegerMax;
