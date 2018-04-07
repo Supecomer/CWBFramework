@@ -14,10 +14,6 @@
 		AF66272C1D4C3F0A00D71FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF66272A1D4C3F0A00D71FAF /* LaunchScreen.storyboard */; };
 		AF66273C1D4C419200D71FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6627351D4C419200D71FAF /* AppDelegate.m */; };
 		AF66273F1D4C41CA00D71FAF /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF66273E1D4C41CA00D71FAF /* BaseModel.m */; };
-		AF7201D5207708AD003ED4EC /* UIButton+imagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7201C8207708AD003ED4EC /* UIButton+imagePosition.m */; };
-		AF7201D6207708AD003ED4EC /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7201CB207708AD003ED4EC /* UIColor+Colours.m */; };
-		AF7201D8207708AD003ED4EC /* UIImage+ImageComperssion.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7201D0207708AD003ED4EC /* UIImage+ImageComperssion.m */; };
-		AF7201D9207708AD003ED4EC /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7201D2207708AD003ED4EC /* UIImageView+CornerRadius.m */; };
 		AF7201DD20770B4D003ED4EC /* MGMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7201DC20770B4D003ED4EC /* MGMBProgressHUD.m */; };
 		AF8C77661D4C516D00965040 /* Coding-Standards.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF8C77631D4C516D00965040 /* Coding-Standards.strings */; };
 		AF8C77671D4C516D00965040 /* framework-instruction.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF8C77641D4C516D00965040 /* framework-instruction.strings */; };
@@ -56,6 +52,20 @@
 		AFB950472078709E00C2D96C /* MGYYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950322078709D00C2D96C /* MGYYImageCache.m */; };
 		AFB950482078709E00C2D96C /* MGYYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950352078709D00C2D96C /* MGYYWebImageManager.m */; };
 		AFB950492078709E00C2D96C /* MGYYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950372078709D00C2D96C /* MGYYWebImageOperation.m */; };
+		AFB950A32078763F00C2D96C /* NSDate+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9507F2078763F00C2D96C /* NSDate+MGAdd.m */; };
+		AFB950A42078763F00C2D96C /* NSData+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950822078763F00C2D96C /* NSData+MGAdd.m */; };
+		AFB950A52078763F00C2D96C /* NSObject+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950852078763F00C2D96C /* NSObject+MGAdd.m */; };
+		AFB950A62078763F00C2D96C /* NSTimer+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950882078763F00C2D96C /* NSTimer+MGAdd.m */; };
+		AFB950A72078763F00C2D96C /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9508B2078763F00C2D96C /* UIColor+Colours.m */; };
+		AFB950A82078763F00C2D96C /* UIImage+ImageComperssion.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9508E2078763F00C2D96C /* UIImage+ImageComperssion.m */; };
+		AFB950A92078763F00C2D96C /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950902078763F00C2D96C /* UIImageView+CornerRadius.m */; };
+		AFB950AA2078763F00C2D96C /* NSString+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950932078763F00C2D96C /* NSString+MGAdd.m */; };
+		AFB950AB2078763F00C2D96C /* NSDictionary+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950962078763F00C2D96C /* NSDictionary+MGAdd.m */; };
+		AFB950AC2078763F00C2D96C /* UIButton+imagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950992078763F00C2D96C /* UIButton+imagePosition.m */; };
+		AFB950AD2078763F00C2D96C /* NSArray+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9509C2078763F00C2D96C /* NSArray+MGAdd.m */; };
+		AFB950AF2078763F00C2D96C /* NSNotificationCenter+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950A22078763F00C2D96C /* NSNotificationCenter+MGAdd.m */; };
+		AFB950BF20787A8400C2D96C /* UIDevice+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950BB20787A8400C2D96C /* UIDevice+MGAdd.m */; };
+		AFB950C020787A8400C2D96C /* NSNumber+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB950BE20787A8400C2D96C /* NSNumber+MGAdd.m */; };
 		AFD08D5F1D52C76500AE00AF /* CWBFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD08D5E1D52C76500AE00AF /* CWBFrameworkUITests.m */; };
 		AFD08D6D1D52C77C00AE00AF /* CWBFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD08D6C1D52C77C00AE00AF /* CWBFrameworkTests.m */; };
 /* End PBXBuildFile section */
@@ -94,14 +104,6 @@
 		AF6627411D4C420B00D71FAF /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
 		AF6627421D4C421900D71FAF /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
 		AF6627431D4C422900D71FAF /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
-		AF7201C7207708AD003ED4EC /* UIButton+imagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagePosition.h"; sourceTree = "<group>"; };
-		AF7201C8207708AD003ED4EC /* UIButton+imagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagePosition.m"; sourceTree = "<group>"; };
-		AF7201CA207708AD003ED4EC /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
-		AF7201CB207708AD003ED4EC /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
-		AF7201CF207708AD003ED4EC /* UIImage+ImageComperssion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComperssion.h"; sourceTree = "<group>"; };
-		AF7201D0207708AD003ED4EC /* UIImage+ImageComperssion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComperssion.m"; sourceTree = "<group>"; };
-		AF7201D1207708AD003ED4EC /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
-		AF7201D2207708AD003ED4EC /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		AF7201DB20770B4D003ED4EC /* MGMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMBProgressHUD.h; sourceTree = "<group>"; };
 		AF7201DC20770B4D003ED4EC /* MGMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMBProgressHUD.m; sourceTree = "<group>"; };
 		AF8C77631D4C516D00965040 /* Coding-Standards.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "Coding-Standards.strings"; sourceTree = "<group>"; };
@@ -177,6 +179,35 @@
 		AFB950352078709D00C2D96C /* MGYYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGYYWebImageManager.m; sourceTree = "<group>"; };
 		AFB950362078709D00C2D96C /* MGYYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGYYWebImageOperation.h; sourceTree = "<group>"; };
 		AFB950372078709D00C2D96C /* MGYYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGYYWebImageOperation.m; sourceTree = "<group>"; };
+		AFB9507E2078763F00C2D96C /* NSDate+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MGAdd.h"; sourceTree = "<group>"; };
+		AFB9507F2078763F00C2D96C /* NSDate+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950812078763F00C2D96C /* NSData+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950822078763F00C2D96C /* NSData+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950842078763F00C2D96C /* NSObject+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950852078763F00C2D96C /* NSObject+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950872078763F00C2D96C /* NSTimer+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950882078763F00C2D96C /* NSTimer+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MGAdd.m"; sourceTree = "<group>"; };
+		AFB9508A2078763F00C2D96C /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
+		AFB9508B2078763F00C2D96C /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
+		AFB9508D2078763F00C2D96C /* UIImage+ImageComperssion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComperssion.h"; sourceTree = "<group>"; };
+		AFB9508E2078763F00C2D96C /* UIImage+ImageComperssion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComperssion.m"; sourceTree = "<group>"; };
+		AFB9508F2078763F00C2D96C /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		AFB950902078763F00C2D96C /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		AFB950922078763F00C2D96C /* NSString+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950932078763F00C2D96C /* NSString+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950952078763F00C2D96C /* NSDictionary+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950962078763F00C2D96C /* NSDictionary+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950982078763F00C2D96C /* UIButton+imagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagePosition.h"; sourceTree = "<group>"; };
+		AFB950992078763F00C2D96C /* UIButton+imagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagePosition.m"; sourceTree = "<group>"; };
+		AFB9509B2078763F00C2D96C /* NSArray+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MGAdd.h"; sourceTree = "<group>"; };
+		AFB9509C2078763F00C2D96C /* NSArray+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950A12078763F00C2D96C /* NSNotificationCenter+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950A22078763F00C2D96C /* NSNotificationCenter+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950B0207876FA00C2D96C /* MGCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCategoriesMacro.h; sourceTree = "<group>"; };
+		AFB950BA20787A8400C2D96C /* UIDevice+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950BB20787A8400C2D96C /* UIDevice+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MGAdd.m"; sourceTree = "<group>"; };
+		AFB950BD20787A8400C2D96C /* NSNumber+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MGAdd.h"; sourceTree = "<group>"; };
+		AFB950BE20787A8400C2D96C /* NSNumber+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MGAdd.m"; sourceTree = "<group>"; };
 		AFD08D5C1D52C76500AE00AF /* CWBFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWBFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD08D5E1D52C76500AE00AF /* CWBFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBFrameworkUITests.m; sourceTree = "<group>"; };
 		AFD08D601D52C76500AE00AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -333,40 +364,22 @@
 		AF7201C5207708AD003ED4EC /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AF7201C6207708AD003ED4EC /* UIButton */,
-				AF7201C9207708AD003ED4EC /* UIColor */,
-				AF7201CE207708AD003ED4EC /* UIImage */,
+				AFB950BC20787A8400C2D96C /* NSNumber */,
+				AFB950B920787A8400C2D96C /* UIDevice */,
+				AFB950B0207876FA00C2D96C /* MGCategoriesMacro.h */,
+				AFB9509A2078763F00C2D96C /* NSArray */,
+				AFB950942078763F00C2D96C /* NSBundle */,
+				AFB950802078763F00C2D96C /* NSData */,
+				AFB9507D2078763F00C2D96C /* NSDate */,
+				AFB950A02078763F00C2D96C /* NSNotificationCenter */,
+				AFB950832078763F00C2D96C /* NSObject */,
+				AFB950912078763F00C2D96C /* NSString */,
+				AFB950862078763F00C2D96C /* NSTimer */,
+				AFB950972078763F00C2D96C /* UIButton */,
+				AFB950892078763F00C2D96C /* UIColor */,
+				AFB9508C2078763F00C2D96C /* UIImage */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		AF7201C6207708AD003ED4EC /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				AF7201C7207708AD003ED4EC /* UIButton+imagePosition.h */,
-				AF7201C8207708AD003ED4EC /* UIButton+imagePosition.m */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		AF7201C9207708AD003ED4EC /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				AF7201CA207708AD003ED4EC /* UIColor+Colours.h */,
-				AF7201CB207708AD003ED4EC /* UIColor+Colours.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		AF7201CE207708AD003ED4EC /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				AF7201CF207708AD003ED4EC /* UIImage+ImageComperssion.h */,
-				AF7201D0207708AD003ED4EC /* UIImage+ImageComperssion.m */,
-				AF7201D1207708AD003ED4EC /* UIImageView+CornerRadius.h */,
-				AF7201D2207708AD003ED4EC /* UIImageView+CornerRadius.m */,
-			);
-			path = UIImage;
 			sourceTree = "<group>";
 		};
 		AF7201D3207708AD003ED4EC /* Classes */ = {
@@ -544,6 +557,125 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		AFB9507D2078763F00C2D96C /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9507E2078763F00C2D96C /* NSDate+MGAdd.h */,
+				AFB9507F2078763F00C2D96C /* NSDate+MGAdd.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		AFB950802078763F00C2D96C /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950812078763F00C2D96C /* NSData+MGAdd.h */,
+				AFB950822078763F00C2D96C /* NSData+MGAdd.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		AFB950832078763F00C2D96C /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950842078763F00C2D96C /* NSObject+MGAdd.h */,
+				AFB950852078763F00C2D96C /* NSObject+MGAdd.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		AFB950862078763F00C2D96C /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950872078763F00C2D96C /* NSTimer+MGAdd.h */,
+				AFB950882078763F00C2D96C /* NSTimer+MGAdd.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		AFB950892078763F00C2D96C /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9508A2078763F00C2D96C /* UIColor+Colours.h */,
+				AFB9508B2078763F00C2D96C /* UIColor+Colours.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		AFB9508C2078763F00C2D96C /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9508D2078763F00C2D96C /* UIImage+ImageComperssion.h */,
+				AFB9508E2078763F00C2D96C /* UIImage+ImageComperssion.m */,
+				AFB9508F2078763F00C2D96C /* UIImageView+CornerRadius.h */,
+				AFB950902078763F00C2D96C /* UIImageView+CornerRadius.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		AFB950912078763F00C2D96C /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950922078763F00C2D96C /* NSString+MGAdd.h */,
+				AFB950932078763F00C2D96C /* NSString+MGAdd.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		AFB950942078763F00C2D96C /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950952078763F00C2D96C /* NSDictionary+MGAdd.h */,
+				AFB950962078763F00C2D96C /* NSDictionary+MGAdd.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		AFB950972078763F00C2D96C /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950982078763F00C2D96C /* UIButton+imagePosition.h */,
+				AFB950992078763F00C2D96C /* UIButton+imagePosition.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		AFB9509A2078763F00C2D96C /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9509B2078763F00C2D96C /* NSArray+MGAdd.h */,
+				AFB9509C2078763F00C2D96C /* NSArray+MGAdd.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		AFB950A02078763F00C2D96C /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950A12078763F00C2D96C /* NSNotificationCenter+MGAdd.h */,
+				AFB950A22078763F00C2D96C /* NSNotificationCenter+MGAdd.m */,
+			);
+			path = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		AFB950B920787A8400C2D96C /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950BA20787A8400C2D96C /* UIDevice+MGAdd.h */,
+				AFB950BB20787A8400C2D96C /* UIDevice+MGAdd.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		AFB950BC20787A8400C2D96C /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AFB950BD20787A8400C2D96C /* NSNumber+MGAdd.h */,
+				AFB950BE20787A8400C2D96C /* NSNumber+MGAdd.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
 		AFD08D5D1D52C76500AE00AF /* CWBFrameworkUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,6 +828,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB950AC2078763F00C2D96C /* UIButton+imagePosition.m in Sources */,
+				AFB950A52078763F00C2D96C /* NSObject+MGAdd.m in Sources */,
 				AF8C776D1D4C54BD00965040 /* WriteLog.m in Sources */,
 				AF8C777A1D4C5A1F00965040 /* NetManager.m in Sources */,
 				AF6627241D4C3F0A00D71FAF /* ViewController.m in Sources */,
@@ -705,8 +839,9 @@
 				AF8CEC5C2076FAF10066889F /* MGFoundation.m in Sources */,
 				AFB9503A2078709E00C2D96C /* MGYYKVStorage.m in Sources */,
 				AFB950392078709E00C2D96C /* MGYYDiskCache.m in Sources */,
-				AF7201D9207708AD003ED4EC /* UIImageView+CornerRadius.m in Sources */,
+				AFB950A62078763F00C2D96C /* NSTimer+MGAdd.m in Sources */,
 				AF8CEC642076FAF10066889F /* NSString+MGExtension.m in Sources */,
+				AFB950A42078763F00C2D96C /* NSData+MGAdd.m in Sources */,
 				AF7201DD20770B4D003ED4EC /* MGMBProgressHUD.m in Sources */,
 				AFB9503F2078709E00C2D96C /* UIButton+MGYYWebImage.m in Sources */,
 				AFB950462078709E00C2D96C /* MGYYSpriteSheetImage.m in Sources */,
@@ -716,28 +851,35 @@
 				AFB950452078709E00C2D96C /* MGYYImageCoder.m in Sources */,
 				AF8CEC5D2076FAF10066889F /* MGProperty.m in Sources */,
 				AF8CEC602076FAF10066889F /* NSObject+MGClass.m in Sources */,
+				AFB950C020787A8400C2D96C /* NSNumber+MGAdd.m in Sources */,
+				AFB950A72078763F00C2D96C /* UIColor+Colours.m in Sources */,
 				AFB950492078709E00C2D96C /* MGYYWebImageOperation.m in Sources */,
-				AF7201D5207708AD003ED4EC /* UIButton+imagePosition.m in Sources */,
 				AF66273F1D4C41CA00D71FAF /* BaseModel.m in Sources */,
 				AFB9503D2078709E00C2D96C /* CALayer+MGYYWebImage.m in Sources */,
 				AF8CEC5B2076FAF10066889F /* MGExtensionConst.m in Sources */,
 				AF8CEC622076FAF10066889F /* NSObject+MGKeyValue.m in Sources */,
 				AFB950472078709E00C2D96C /* MGYYImageCache.m in Sources */,
+				AFB950AB2078763F00C2D96C /* NSDictionary+MGAdd.m in Sources */,
 				AFB950442078709E00C2D96C /* MGYYImage.m in Sources */,
-				AF7201D6207708AD003ED4EC /* UIColor+Colours.m in Sources */,
 				AF8CEC5E2076FAF10066889F /* MGPropertyKey.m in Sources */,
+				AFB950AA2078763F00C2D96C /* NSString+MGAdd.m in Sources */,
 				AFB9503B2078709E00C2D96C /* MGYYMemoryCache.m in Sources */,
 				AF8CEC612076FAF10066889F /* NSObject+MGCoding.m in Sources */,
 				AF66273C1D4C419200D71FAF /* AppDelegate.m in Sources */,
+				AFB950A82078763F00C2D96C /* UIImage+ImageComperssion.m in Sources */,
+				AFB950AD2078763F00C2D96C /* NSArray+MGAdd.m in Sources */,
 				AF8C77711D4C55C600965040 /* ClassFactory.m in Sources */,
 				AFB9503E2078709E00C2D96C /* MKAnnotationView+MGYYWebImage.m in Sources */,
 				AFB950422078709E00C2D96C /* MGYYAnimatedImageView.m in Sources */,
 				AF8CEC632076FAF10066889F /* NSObject+MGProperty.m in Sources */,
-				AF7201D8207708AD003ED4EC /* UIImage+ImageComperssion.m in Sources */,
 				AF965340205B66930027F4B1 /* ViewControllerMode.m in Sources */,
 				AFB950402078709E00C2D96C /* UIImage+MGYYWebImage.m in Sources */,
+				AFB950AF2078763F00C2D96C /* NSNotificationCenter+MGAdd.m in Sources */,
+				AFB950A32078763F00C2D96C /* NSDate+MGAdd.m in Sources */,
 				AFB950382078709E00C2D96C /* MGYYCache.m in Sources */,
+				AFB950BF20787A8400C2D96C /* UIDevice+MGAdd.m in Sources */,
 				AF8CEC5F2076FAF10066889F /* MGPropertyType.m in Sources */,
+				AFB950A92078763F00C2D96C /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
